@@ -49,3 +49,50 @@
 
 
 
+@media (max-width: 1024px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .header h1 {
+    font-size: 2em;
+  }
+
+  .header p {
+    font-size: 0.95em;
+  }
+}
+
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .header h1 {
+    font-size: 1.6em;
+  }
+
+  .header p {
+    font-size: 0.9em;
+    padding: 0 10px;
+  }
+
+  .card button {
+    padding: 8px;
+    font-size: 0.9em;
+  }
+
+  .card h3 {
+    font-size: 13px;
+  }
+
+  .card p {
+    font-size: 0.95em;
+  }
+}
+
+
+
+
+
+
