@@ -210,3 +210,75 @@
 }
 
 
+
+
+@media (max-width: 768px) {
+    .latestDeals p {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .latestDealFlex {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .leftTopImageOne,
+    .rightImage {
+        width: 100%;
+    }
+
+    .rightImage img {
+        width: 100%;
+        height: auto;
+    }
+
+    .rightImageText h3 {
+        font-size: 20px;
+    }
+
+    .rightImageText a {
+        font-size: 16px;
+    }
+
+    .leftTopImageText h4 {
+        font-size: 14px;
+    }
+
+    .leftTopImageText a {
+        font-size: 14px;
+        top: 65%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (max-width: 480px) {
+    .latestDeals h2 {
+        font-size: 24px;
+    }
+
+    .latestDeals p {
+        font-size: 14px;
+    }
+
+    .rightImageText h3 {
+        font-size: 18px;
+    }
+
+    .rightImageText a {
+        font-size: 14px;
+    }
+
+    .leftTopImageText h4 {
+        font-size: 12px;
+    }
+
+    .leftTopImageText a {
+        font-size: 12px;
+    }
+}
+
+
+

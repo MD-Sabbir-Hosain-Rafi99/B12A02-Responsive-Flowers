@@ -233,3 +233,120 @@ ul li {
     width: 300px;
     animation: spin 4s linear infinite;
 }
+
+
+
+
+
+.latestDeals h2 {
+    font-family: 'Noto Serif', serif;
+    font-size: 2.5em;
+    color: #E95A08;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.latestDeals p {
+    width: 888px;
+    margin: auto;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.latestDealFlex {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+
+.leftTopImageOne {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+
+.leftTopImageOne img {
+    width: 100%;
+    display: block;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+.leftTopImageOne .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+    border-radius: 20px;
+}
+
+.leftTopImageText h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Noto Serif', serif;
+    font-size: 16px;
+    color: white;
+}
+
+
+.leftTopImageText a {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-65%, -50%);
+    color: white;
+}
+
+.rightImage img {
+    width: 753px;
+    display: block;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.rightImage {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.rightImage .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+    border-radius: 20px;
+}
+
+.rightImageText h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Noto Serif', serif;
+    font-size: 36px;
+    color: white;
+}
+
+.rightImageText a {
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-64%, -50%);
+    color: white;
+    font-size: 28px;
+}
