@@ -282,3 +282,34 @@
 
 
 
+
+
+@media (max-width: 576px) {
+  .subscribe-content h2 {
+    font-size: 24px;
+  }
+
+  .subscribe-form input[type="email"] {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .subscribe-form button {
+    font-size: 14px;
+    padding: 0 15px;
+  }
+
+   .subscribe-section {
+    height: 200px; 
+    background-size: cover;
+    background-position: center;
+  }
+
+  .subscribe-section h2,
+  .subscribe-form {
+    transform: scale(0.9); 
+  }
+}
+
+
+
