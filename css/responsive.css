@@ -49,6 +49,9 @@
 
 
 
+
+
+
 @media (max-width: 1024px) {
   .cards {
     grid-template-columns: repeat(2, 1fr);
@@ -94,5 +97,116 @@
 
 
 
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .flexFlowerPlanet {
+        flex-direction: column;
+        
+    }
+
+   
+
+    .flowerPlatenImageChild img {
+        display: none;
+    }
+
+    .flowerLover {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .flowerLover h2 {
+        font-size: 28px;
+        padding-right: 0;
+    }
+
+    ul {
+        font-size: 16px;
+    }
+
+    ul li {
+        padding-bottom: 14px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .flexFlowerPlanet {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flowerPlatenImageParent,
+    .flowerLover {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .flowerPlatenImageParent img {
+        width: 90%;
+    }
+
+    .flowerPlatenImageChild {
+        position: static;
+        transform: none;
+        width: 100px;
+        margin: 20px auto 0;
+    }
+
+    .flowerPlatenImageChild img {
+        width: 80px;
+        height: auto;
+    }
+
+    .flowerLover h2 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .flowerLover ul {
+        padding: 0 20px;
+        font-size: 16px;
+        list-style: disc;
+        text-align: left;
+    }
+
+    ul li {
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .flowerLover h2 {
+        font-size: 22px;
+        line-height: 1.3;
+        word-break: break-word;
+    }
+
+    .flowerLover ul {
+        font-size: 14px;
+    }
+
+    .flowerPlatenImageChild {
+        width: 80px;
+    }
+
+    .flowerPlatenImageChild img {
+        width: 70px;
+    }
+}
 
 

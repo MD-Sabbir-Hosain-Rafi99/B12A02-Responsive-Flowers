@@ -103,17 +103,17 @@ p {
 
 
 
-.container {
+.container .card {
     font-family: 'Inter', sans-serif;
-    padding: 20px;
     text-align: center;
 }
 
 .header h1 {
     font-family: 'Noto Serif', serif;
     font-size: 2.5em;
-    color: #f28c38;
+    color: #E95A08;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .header p {
@@ -166,4 +166,70 @@ p {
     /* border-radius: 5px; */
     cursor: pointer;
     width: 100%;
+}
+
+
+.flexFlowerPlanet {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flowerLover ul {
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 0 0 0 30px;
+    color: gray;
+
+}
+
+ul li {
+    padding-bottom: 30px;
+}
+
+.flowerLover {
+    padding-left: 80px;
+    width: 45%;
+}
+
+.flowerLover h2 {
+    font-family: 'Noto Serif', serif;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.flowerPlatenImageParent {
+    position: relative;
+    /* display: inline-block; */
+    width: 45%;
+}
+
+.flowerPlatenImageParent img {
+    height: auto;
+    width: 640px;
+}
+
+.flowerPlatenImageChild {
+    position: absolute;
+    top: 25%;
+    left: 105%;
+    transform: translate(-25%, -105%);
+    text-align: left;
+    width: 400px;
+
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.flowerPlatenImageChild img {
+    height: 300px;
+    width: 300px;
+    animation: spin 4s linear infinite;
 }
